@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Eriocnemis, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Eriocnemis\CouponLink\Model\CompositeValidator">
+        <arguments>
+            <argument name="validators" xsi:type="array">
+                <item name="length" xsi:type="object">Eriocnemis\CouponLink\Model\Validator\Length</item>
+                <item name="exist" xsi:type="object">Eriocnemis\CouponLink\Model\Validator\EntityExist</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
