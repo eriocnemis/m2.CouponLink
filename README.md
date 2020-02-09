@@ -45,6 +45,10 @@ Format of the link is http://{domain}/checkout/cart/coupon/?code={code}
     php bin/magento setup:di:compile
     php bin/magento setup:static-content:deploy  (optional)
 
+## License
+
+[The Open Software License 3.0 (OSL-3.0)](https://github.com/eriocnemis/m2.CouponLink/blob/master/LICENSE.md)
+
 ## Contribution
 
 Want to contribute to this extension? The best possibility to provide any code is to open a [pull requests](https://github.com/eriocnemis/m2.CouponLink/pulls) on GitHub. Please see the [CONTRIBUTING.md](https://github.com/eriocnemis/m2.CouponLink/blob/master/.github/CONTRIBUTING.md) file for more.
@@ -56,9 +60,5 @@ If you encounter any problems or bugs, please open a [issue](https://github.com/
 ## Suggestions
 
 We're also interested in your feedback for the future of extension. You can submit a suggestion or feature request through the [issue](https://github.com/eriocnemis/m2.CouponLink/issues) tracker.
-
-## License
-
-[The Open Software License 3.0 (OSL-3.0)](https://github.com/eriocnemis/m2.CouponLink/blob/master/LICENSE.md)
 
 <p align="center"><img src="https://avatars3.githubusercontent.com/u/48807026?s=48&v=4"></p>
