@@ -51,7 +51,7 @@ Format of the link is http://{domain}/checkout/cart/coupon/?code={code}
 
 ## Contribution
 
-Want to contribute to this extension? The best possibility to provide any code is to open a [pull requests](https://github.com/eriocnemis/m2.CouponLink/pulls) on GitHub. Please see the [CONTRIBUTING.md](https://github.com/eriocnemis/m2.CouponLink/blob/master/.github/CONTRIBUTING.md) file for more.
+Want to contribute to this extension? The best possibility to provide any code is to open a [pull requests](https://github.com/eriocnemis/m2.CouponLink/pulls) on GitHub. Please, see the [CONTRIBUTING.md](https://github.com/eriocnemis/m2.CouponLink/blob/master/.github/CONTRIBUTING.md) file for more.
 
 ## Suggestions
 
