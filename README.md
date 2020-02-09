@@ -47,7 +47,7 @@ Format of the link is http://{domain}/checkout/cart/coupon/?code={code}
 
 ## License
 
-[The Open Software License 3.0 (OSL-3.0)](https://github.com/eriocnemis/m2.CouponLink/blob/master/LICENSE.md)
+All **Free** Eriocnemis extensions is distributed under the [Open Software License (OSL 3.0)](https://github.com/eriocnemis/m2.CouponLink/blob/master/LICENSE.md), and is thus open source software.
 
 ## Contribution
 
