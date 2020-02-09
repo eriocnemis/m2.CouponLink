@@ -55,7 +55,7 @@ Want to contribute to this extension? The best possibility to provide any code i
 
 ## Suggestions
 
-We're also interested in your feedback for the future of our extension. You can submit a suggestion or feature request through the [issue](https://github.com/eriocnemis/m2.CouponLink/issues) tracker. But you must acknowledge and agree that your offer will not prevent Eriocnemis from using your ideas without obligation to you.
+We're also interested in your feedback for the future of our extension. You can submit a suggestion or feature request through the [issue](https://github.com/eriocnemis/m2.CouponLink/issues) tracker. But you must acknowledge and agree that your offer will not prevent Eriocnemis team from using your ideas without obligation to you.
 
 ## Support
 
