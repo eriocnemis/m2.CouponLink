@@ -1,5 +1,3 @@
-<p align="center"><img src="https://avatars3.githubusercontent.com/u/48807026?s=48&v=4"></p>
-
 # Magento2 CouponLink
 
 The extension allows you to create URL links that will automatically add a coupon code for your customer to the shopping cart. Used in newsletter campaigns, marketing banners or posts, social media posting or in any promotional tools.
@@ -62,3 +60,5 @@ We're also interested in your feedback for the future of extension. You can subm
 ## License
 
 [The Open Software License 3.0 (OSL-3.0)](https://github.com/eriocnemis/m2.CouponLink/blob/master/LICENSE.md)
+
+<p align="center"><img src="https://avatars3.githubusercontent.com/u/48807026?s=48&v=4"></p>
