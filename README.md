@@ -34,6 +34,8 @@ Format of the link is http://{domain}/checkout/cart/coupon/?code={code}
 
 ## Uninstall
 
+You can uninstall a module only if you’re certain you won’t use it. Instead of uninstalling a module, you can disable it. Pleace, create backup so you can recover the data at a later time.
+
 1. Remove the folder {Magento root}/app/code/Eriocnemis/CouponLink
 
 2. Go to Magento2 root folder
