@@ -49,7 +49,7 @@ You can uninstall a module only if you’re certain you won’t use it. Instead 
 
 ## License
 
-All **Free** Eriocnemis extensions is distributed under the [Open Software License (OSL 3.0)](https://github.com/eriocnemis/m2.CouponLink/blob/master/LICENSE.md), and is thus open source software.
+All Free Eriocnemis extensions is distributed under the [Open Software License (OSL 3.0)](https://github.com/eriocnemis/m2.CouponLink/blob/master/LICENSE.md), and is thus open source software.
 
 ## Contribution
 
