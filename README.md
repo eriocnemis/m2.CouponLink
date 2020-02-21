@@ -4,7 +4,7 @@ The extension allows you to create URL links that will automatically add a coupo
 
 ## Compatibility
 
-Version | 2.0.* | 2.1.* | 2.2.* | 2.3.* | 2.4.*
+Version | 2.0.* | 2.1.* | 2.2.* | 2.3.* | 2.4dev
 --- | --- | --- | --- | --- | ---
 Magento Community | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 Magento Enterprise | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
