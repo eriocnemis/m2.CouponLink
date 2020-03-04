@@ -1,0 +1,28 @@
+{
+    "name": "eriocnemis/module-coupon-link",
+    "description": "The extension allows you to create URL links that will automatically add a coupon code for your customer to the shopping cart.",
+    "type": "magento2-module",
+    "version": "2.0.1",
+    "authors": [{
+        "name": "Eriocnemis Team",
+        "email": "dev.eriocnemis@gmail.com"
+    }],
+    "license": [
+        "OSL-3.0"
+    ],
+    "require": {
+        "magento/framework": "100.0.*",
+        "magento/module-checkout": "100.0.*",
+        "magento/module-sales-rule": "100.0.*",
+        "magento/module-store": "100.0.*",
+        "magento/module-quote": "100.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Eriocnemis\\CouponLink\\": ""
+        }
+    }
+}
