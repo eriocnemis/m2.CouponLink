@@ -12,10 +12,10 @@
     ],
     "require": {
         "magento/framework": "101.0.*",
-        "magento/module-checkout": "102.0.*",
+        "magento/module-checkout": "100.2.*",
         "magento/module-sales-rule": "101.0.*",
-        "magento/module-store": "102.0.*",
-        "magento/module-quote": "102.0.*"
+        "magento/module-store": "100.2.*",
+        "magento/module-quote": "100.2.*"
     },
     "autoload": {
         "files": [
