@@ -15,7 +15,7 @@ Extension version | [2.0.1](https://github.com/eriocnemis/m2.CouponLink/archive/
 
 1. Create a folder {Magento root}/app/code/Eriocnemis/CouponLink
 
-2. Download the corresponding [latest version](https://github.com/eriocnemis/m2.CouponLink/releases)
+2. Download the corresponding latest version
 
 3. Copy the unzip content to the folder ({Magento root}/app/code/Eriocnemis/CouponLink)
 
