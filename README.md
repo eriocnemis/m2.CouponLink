@@ -4,14 +4,54 @@ The extension allows you to create URL links that will automatically add a coupo
 
 ## Compatibility
 
-Version | 2.0.* | 2.1.* | 2.2.* | 2.3.* | 2.4 dev
+Version | 2.0.* | 2.1.* | 2.2.* | 2.3.* | 2.4.*
 --- | --- | --- | --- | --- | ---
-Magento Community | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | -
-Magento Enterprise | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | -
-Magento Cloud | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | -
-Extension version | [2.0.1](https://github.com/eriocnemis/m2.CouponLink/archive/2.0.1.zip) | [2.1.1](https://github.com/eriocnemis/m2.CouponLink/archive/2.1.1.zip) | [2.2.1](https://github.com/eriocnemis/m2.CouponLink/archive/2.2.1.zip) | [2.3.1](https://github.com/eriocnemis/m2.CouponLink/archive/2.3.1.zip) | -
+Magento Community | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+Magento Enterprise | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+Magento Cloud | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+Extension version | [2.0.1](https://github.com/eriocnemis/m2.CouponLink/archive/2.0.1.zip) | [2.1.1](https://github.com/eriocnemis/m2.CouponLink/archive/2.1.1.zip) | [2.2.1](https://github.com/eriocnemis/m2.CouponLink/archive/2.2.1.zip) | [2.3.1](https://github.com/eriocnemis/m2.CouponLink/archive/2.3.1.zip) | [2.4.1](https://github.com/eriocnemis/m2.CouponLink/archive/2.4.1.zip)
 
 ## Install
+
+#### Install via Composer (recommend)
+
+1. Go to Magento2 root folder
+
+2. Enter following commands to install module:
+
+     For Magento CE (EE) 2.0.x
+
+    ```bash
+    composer require eriocnemis/module-coupon-link:2.0.*
+    ```
+
+     For Magento CE (EE) 2.1.x
+
+    ```bash
+    composer require eriocnemis/module-coupon-link:2.1.*
+    ```
+
+     For Magento CE (EE) 2.2.x
+
+    ```bash
+    composer require eriocnemis/module-coupon-link:2.2.*
+    ```
+
+     For Magento CE (EE) 2.3.x
+
+    ```bash
+    composer require eriocnemis/module-coupon-link:2.3.*
+    ```
+
+     For Magento CE (EE) 2.4.x
+
+    ```bash
+    composer require eriocnemis/module-coupon-link:2.4.*
+    ```
+
+   Wait while dependencies are updated.
+
+#### Manual Installation
 
 1. Create a folder {Magento root}/app/code/Eriocnemis/CouponLink
 
@@ -19,16 +59,20 @@ Extension version | [2.0.1](https://github.com/eriocnemis/m2.CouponLink/archive/
 
 3. Copy the unzip content to the folder ({Magento root}/app/code/Eriocnemis/CouponLink)
 
-4. Go to Magento2 root folder
+#### Completion of installation
 
-5. Enter following commands:
+1. Go to Magento2 root folder
+
+2. Enter following commands:
 
     ```bash
     php bin/magento setup:upgrade
     php bin/magento setup:di:compile
-    php bin/magento setup:static-content:deploy  (optional)
-
+    php bin/magento setup:static-content:deploy (optional)
+    ```
 ## Usage
+
+### Configuration
 
 Format of the link is http://{domain}/checkout/cart/coupon/?code={code}
 
@@ -36,17 +80,30 @@ Format of the link is http://{domain}/checkout/cart/coupon/?code={code}
 
 You can uninstall a module only if you’re certain you won’t use it. Instead of uninstalling a module, you can disable it. Pleace, create backup so you can recover the data at a later time.
 
+#### Uninstall via Composer
+
+1. Go to Magento2 root folder
+
+2. Enter following commands to remove:
+
+    ```bash
+    composer remove eriocnemis/module-coupon-link
+    ```
+#### Manual Uninstall
+
 1. Remove the folder {Magento root}/app/code/Eriocnemis/CouponLink
 
-2. Go to Magento2 root folder
+#### Completion of uninstall
 
-3. Enter following commands:
+1. Go to Magento2 root folder
+
+2. Enter following commands:
 
     ```bash
     php bin/magento setup:upgrade
     php bin/magento setup:di:compile
-    php bin/magento setup:static-content:deploy  (optional)
-
+    php bin/magento setup:static-content:deploy (optional)
+    ```
 ## License
 
 All Free Eriocnemis extensions is distributed under the [Open Software License (OSL 3.0)](https://github.com/eriocnemis/m2.CouponLink/blob/master/LICENSE.md), and is thus open source software.
